@@ -14,3 +14,5 @@ elif sexo == 1 and civil == 2:
     print(f"Nome:{nome}\nSexo: M\nEstado civil: Casado")
 elif sexo == 2 and civil == 1:
     print(f"Nome:{nome}\nSexo: F\nEstado civil: Solteira")
+else:
+    print("Valores inválidos")

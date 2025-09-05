@@ -18,3 +18,5 @@ match cor:
         print("Preço: R$30,00")
     case "vermelho":
         print("Preço: R$40,00")
+    case _:
+        print("Valor inválido.")
